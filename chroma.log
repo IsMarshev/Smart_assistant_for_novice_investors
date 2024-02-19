@@ -1,0 +1,273 @@
+[33mWARNING[0m:  [19-02-2024 11:35:00] chroma_server_nofile is not supported on Windows. chroma_server_nofile will not be set.
+[32mINFO[0m:     [19-02-2024 11:35:00] Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[36mDEBUG[0m:    [19-02-2024 11:35:00] Starting component System
+[36mDEBUG[0m:    [19-02-2024 11:35:00] Starting component OpenTelemetryClient
+[36mDEBUG[0m:    [19-02-2024 11:35:00] Starting component SimpleAssignmentPolicy
+[36mDEBUG[0m:    [19-02-2024 11:35:00] Starting component SqliteDB
+[36mDEBUG[0m:    [19-02-2024 11:35:00] Starting component Posthog
+[36mDEBUG[0m:    [19-02-2024 11:35:00] Starting component LocalSegmentManager
+[36mDEBUG[0m:    [19-02-2024 11:35:00] Starting component SegmentAPI
+[32mINFO[0m:     [19-02-2024 11:35:00] Started server process [[36m25060[0m]
+[32mINFO[0m:     [19-02-2024 11:35:00] Waiting for application startup.
+[32mINFO[0m:     [19-02-2024 11:35:00] Application startup complete.
+[32mINFO[0m:     [19-02-2024 11:35:00] Uvicorn running on [1mhttp://localhost:8000[0m (Press CTRL+C to quit)
+[32mINFO[0m:     [19-02-2024 11:35:07] ::1:61530 - "GET / HTTP/1.1" 404
+[32mINFO[0m:     [19-02-2024 11:35:56] 127.0.0.1:61662 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [19-02-2024 11:35:56] 127.0.0.1:61662 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [19-02-2024 11:36:00] 127.0.0.1:61676 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [19-02-2024 11:36:01] Backing off send_request(...) for 0.5s (requests.exceptions.ConnectionError: ('Connection aborted.', ConnectionResetError(10054, 'Удаленный хост принудительно разорвал существующее подключение', None, 10054, None)))
+[32mINFO[0m:     [19-02-2024 11:36:02] Backing off send_request(...) for 0.3s (requests.exceptions.ConnectionError: ('Connection aborted.', ConnectionResetError(10054, 'Удаленный хост принудительно разорвал существующее подключение', None, 10054, None)))
+[32mINFO[0m:     [19-02-2024 11:36:02] Backing off send_request(...) for 0.1s (requests.exceptions.ConnectionError: ('Connection aborted.', ConnectionResetError(10054, 'Удаленный хост принудительно разорвал существующее подключение', None, 10054, None)))
+[31mERROR[0m:    [19-02-2024 11:36:02] Giving up send_request(...) after 4 tries (requests.exceptions.ConnectionError: ('Connection aborted.', ConnectionResetError(10054, 'Удаленный хост принудительно разорвал существующее подключение', None, 10054, None)))
+[32mINFO[0m:     [19-02-2024 11:36:09] ::1:61697 - "GET / HTTP/1.1" 404
+[32mINFO[0m:     [19-02-2024 11:36:33] ::1:61697 - "GET / HTTP/1.1" 404
+[32mINFO[0m:     [19-02-2024 11:37:10] 127.0.0.1:61839 - "GET /api/v1/pre-flight-checks HTTP/1.1" 200
+[36mDEBUG[0m:    [19-02-2024 11:37:11] Starting component PersistentLocalHnswSegment
+[32mINFO[0m:     [19-02-2024 11:37:12] 127.0.0.1:61839 - "POST /api/v1/collections/ea7f7d6e-4459-43ca-b62c-54eb25dddd73/add HTTP/1.1" 201
+[32mINFO[0m:     [19-02-2024 11:37:13] Backing off send_request(...) for 0.2s (requests.exceptions.ConnectionError: ('Connection aborted.', ConnectionResetError(10054, 'Удаленный хост принудительно разорвал существующее подключение', None, 10054, None)))
+[32mINFO[0m:     [19-02-2024 11:37:13] Backing off send_request(...) for 1.0s (requests.exceptions.ConnectionError: ('Connection aborted.', ConnectionResetError(10054, 'Удаленный хост принудительно разорвал существующее подключение', None, 10054, None)))
+[32mINFO[0m:     [19-02-2024 11:37:14] Backing off send_request(...) for 0.9s (requests.exceptions.ConnectionError: ('Connection aborted.', ConnectionResetError(10054, 'Удаленный хост принудительно разорвал существующее подключение', None, 10054, None)))
+[31mERROR[0m:    [19-02-2024 11:37:15] Giving up send_request(...) after 4 tries (requests.exceptions.ConnectionError: ('Connection aborted.', ConnectionResetError(10054, 'Удаленный хост принудительно разорвал существующее подключение', None, 10054, None)))
+[32mINFO[0m:     [19-02-2024 11:37:46] ::1:61983 - "GET / HTTP/1.1" 404
+[32mINFO[0m:     [19-02-2024 11:38:16] 127.0.0.1:62082 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [19-02-2024 11:38:16] 127.0.0.1:62082 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[31mERROR[0m:    [19-02-2024 11:38:20] Collection my_collection already exists
+Traceback (most recent call last):
+  File "C:\Users\imars\AppData\Local\Programs\Python\Python310\lib\site-packages\anyio\streams\memory.py", line 97, in receive
+    return self.receive_nowait()
+  File "C:\Users\imars\AppData\Local\Programs\Python\Python310\lib\site-packages\anyio\streams\memory.py", line 92, in receive_nowait
+    raise WouldBlock
+anyio.WouldBlock
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\imars\AppData\Local\Programs\Python\Python310\lib\site-packages\starlette\middleware\base.py", line 159, in call_next
+    message = await recv_stream.receive()
+  File "C:\Users\imars\AppData\Local\Programs\Python\Python310\lib\site-packages\anyio\streams\memory.py", line 112, in receive
+    raise EndOfStream
+anyio.EndOfStream
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\imars\AppData\Local\Programs\Python\Python310\lib\site-packages\chromadb\server\fastapi\__init__.py", line 80, in catch_exceptions_middleware
+    return await call_next(request)
+  File "C:\Users\imars\AppData\Local\Programs\Python\Python310\lib\site-packages\starlette\middleware\base.py", line 165, in call_next
+    raise app_exc
+  File "C:\Users\imars\AppData\Local\Programs\Python\Python310\lib\site-packages\starlette\middleware\base.py", line 151, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "C:\Users\imars\AppData\Local\Programs\Python\Python310\lib\site-packages\starlette\middleware\base.py", line 189, in __call__
+    with collapse_excgroups():
+  File "C:\Users\imars\AppData\Local\Programs\Python\Python310\lib\contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "C:\Users\imars\AppData\Local\Programs\Python\Python310\lib\site-packages\starlette\_utils.py", line 93, in collapse_excgroups
+    raise exc
+  File "C:\Users\imars\AppData\Local\Programs\Python\Python310\lib\site-packages\starlette\middleware\base.py", line 191, in __call__
+    response = await self.dispatch_func(request, call_next)
+  File "C:\Users\imars\AppData\Local\Programs\Python\Python310\lib\site-packages\chromadb\server\fastapi\__init__.py", line 94, in check_http_version_middleware
+    return await call_next(request)
+  File "C:\Users\imars\AppData\Local\Programs\Python\Python310\lib\site-packages\starlette\middleware\base.py", line 165, in call_next
+    raise app_exc
+  File "C:\Users\imars\AppData\Local\Programs\Python\Python310\lib\site-packages\starlette\middleware\base.py", line 151, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "C:\Users\imars\AppData\Local\Programs\Python\Python310\lib\site-packages\starlette\middleware\exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\imars\AppData\Local\Programs\Python\Python310\lib\site-packages\starlette\_exception_handler.py", line 64, in wrapped_app
+    raise exc
+  File "C:\Users\imars\AppData\Local\Programs\Python\Python310\lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\imars\AppData\Local\Programs\Python\Python310\lib\site-packages\starlette\routing.py", line 758, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\imars\AppData\Local\Programs\Python\Python310\lib\site-packages\starlette\routing.py", line 778, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\imars\AppData\Local\Programs\Python\Python310\lib\site-packages\starlette\routing.py", line 299, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\imars\AppData\Local\Programs\Python\Python310\lib\site-packages\starlette\routing.py", line 79, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\imars\AppData\Local\Programs\Python\Python310\lib\site-packages\starlette\_exception_handler.py", line 64, in wrapped_app
+    raise exc
+  File "C:\Users\imars\AppData\Local\Programs\Python\Python310\lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\imars\AppData\Local\Programs\Python\Python310\lib\site-packages\starlette\routing.py", line 74, in app
+    response = await func(request)
+  File "C:\Users\imars\AppData\Local\Programs\Python\Python310\lib\site-packages\fastapi\routing.py", line 299, in app
+    raise e
+  File "C:\Users\imars\AppData\Local\Programs\Python\Python310\lib\site-packages\fastapi\routing.py", line 294, in app
+    raw_response = await run_endpoint_function(
+  File "C:\Users\imars\AppData\Local\Programs\Python\Python310\lib\site-packages\fastapi\routing.py", line 193, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+  File "C:\Users\imars\AppData\Local\Programs\Python\Python310\lib\site-packages\starlette\concurrency.py", line 42, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func, *args)
+  File "C:\Users\imars\AppData\Local\Programs\Python\Python310\lib\site-packages\anyio\to_thread.py", line 33, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+  File "C:\Users\imars\AppData\Local\Programs\Python\Python310\lib\site-packages\anyio\_backends\_asyncio.py", line 2106, in run_sync_in_worker_thread
+    return await future
+  File "C:\Users\imars\AppData\Local\Programs\Python\Python310\lib\site-packages\anyio\_backends\_asyncio.py", line 833, in run
+    result = context.run(func, *args)
+  File "C:\Users\imars\AppData\Local\Programs\Python\Python310\lib\site-packages\chromadb\telemetry\opentelemetry\__init__.py", line 127, in wrapper
+    return f(*args, **kwargs)
+  File "C:\Users\imars\AppData\Local\Programs\Python\Python310\lib\site-packages\chromadb\auth\fastapi.py", line 234, in wrapped
+    return f(*args, **kwargs)
+  File "C:\Users\imars\AppData\Local\Programs\Python\Python310\lib\site-packages\chromadb\server\fastapi\__init__.py", line 408, in create_collection
+    return self._api.create_collection(
+  File "C:\Users\imars\AppData\Local\Programs\Python\Python310\lib\site-packages\chromadb\telemetry\opentelemetry\__init__.py", line 127, in wrapper
+    return f(*args, **kwargs)
+  File "C:\Users\imars\AppData\Local\Programs\Python\Python310\lib\site-packages\chromadb\api\segment.py", line 166, in create_collection
+    coll, created = self._sysdb.create_collection(
+  File "C:\Users\imars\AppData\Local\Programs\Python\Python310\lib\site-packages\chromadb\telemetry\opentelemetry\__init__.py", line 127, in wrapper
+    return f(*args, **kwargs)
+  File "C:\Users\imars\AppData\Local\Programs\Python\Python310\lib\site-packages\chromadb\db\mixins\sysdb.py", line 225, in create_collection
+    raise UniqueConstraintError(f"Collection {name} already exists")
+chromadb.db.base.UniqueConstraintError: Collection my_collection already exists
+[32mINFO[0m:     [19-02-2024 11:38:20] 127.0.0.1:62100 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 500
+[32mINFO[0m:     [19-02-2024 11:38:28] 127.0.0.1:62127 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [19-02-2024 11:38:28] 127.0.0.1:62127 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [19-02-2024 11:38:33] ::1:61984 - "GET / HTTP/1.1" 404
+[32mINFO[0m:     [19-02-2024 11:39:42] 127.0.0.1:62328 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [19-02-2024 11:39:42] Backing off send_request(...) for 0.4s (requests.exceptions.ConnectionError: ('Connection aborted.', ConnectionResetError(10054, 'Удаленный хост принудительно разорвал существующее подключение', None, 10054, None)))
+[32mINFO[0m:     [19-02-2024 11:39:43] Backing off send_request(...) for 0.7s (requests.exceptions.ConnectionError: ('Connection aborted.', ConnectionResetError(10054, 'Удаленный хост принудительно разорвал существующее подключение', None, 10054, None)))
+[32mINFO[0m:     [19-02-2024 11:39:44] Backing off send_request(...) for 3.9s (requests.exceptions.ConnectionError: ('Connection aborted.', ConnectionResetError(10054, 'Удаленный хост принудительно разорвал существующее подключение', None, 10054, None)))
+[31mERROR[0m:    [19-02-2024 11:39:48] Giving up send_request(...) after 4 tries (requests.exceptions.ConnectionError: ('Connection aborted.', ConnectionResetError(10054, 'Удаленный хост принудительно разорвал существующее подключение', None, 10054, None)))
+[36mDEBUG[0m:    [19-02-2024 11:39:51] Starting component PersistentLocalHnswSegment
+[32mINFO[0m:     [19-02-2024 11:39:52] 127.0.0.1:62328 - "POST /api/v1/collections/d75daef3-a751-4b90-b5dc-7ab05d1763c4/query HTTP/1.1" 200
+[32mINFO[0m:     [19-02-2024 11:39:52] ::1:62370 - "GET / HTTP/1.1" 404
+[32mINFO[0m:     [19-02-2024 11:39:52] Backing off send_request(...) for 0.0s (requests.exceptions.ConnectionError: ('Connection aborted.', ConnectionResetError(10054, 'Удаленный хост принудительно разорвал существующее подключение', None, 10054, None)))
+[32mINFO[0m:     [19-02-2024 11:39:52] Backing off send_request(...) for 0.7s (requests.exceptions.ConnectionError: ('Connection aborted.', ConnectionResetError(10054, 'Удаленный хост принудительно разорвал существующее подключение', None, 10054, None)))
+[32mINFO[0m:     [19-02-2024 11:39:53] Backing off send_request(...) for 0.7s (requests.exceptions.ConnectionError: ('Connection aborted.', ConnectionResetError(10054, 'Удаленный хост принудительно разорвал существующее подключение', None, 10054, None)))
+[31mERROR[0m:    [19-02-2024 11:39:54] Giving up send_request(...) after 4 tries (requests.exceptions.ConnectionError: ('Connection aborted.', ConnectionResetError(10054, 'Удаленный хост принудительно разорвал существующее подключение', None, 10054, None)))
+[32mINFO[0m:     [19-02-2024 11:41:45] Shutting down
+[32mINFO[0m:     [19-02-2024 11:41:45] Waiting for application shutdown.
+[32mINFO[0m:     [19-02-2024 11:41:45] Application shutdown complete.
+[32mINFO[0m:     [19-02-2024 11:41:45] Finished server process [[36m25060[0m]
+[33mWARNING[0m:  [19-02-2024 11:44:57] chroma_server_nofile is not supported on Windows. chroma_server_nofile will not be set.
+[32mINFO[0m:     [19-02-2024 11:44:57] Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[36mDEBUG[0m:    [19-02-2024 11:44:57] Starting component System
+[36mDEBUG[0m:    [19-02-2024 11:44:57] Starting component OpenTelemetryClient
+[36mDEBUG[0m:    [19-02-2024 11:44:57] Starting component SimpleAssignmentPolicy
+[36mDEBUG[0m:    [19-02-2024 11:44:57] Starting component SqliteDB
+[36mDEBUG[0m:    [19-02-2024 11:44:57] Starting component Posthog
+[36mDEBUG[0m:    [19-02-2024 11:44:57] Starting component LocalSegmentManager
+[36mDEBUG[0m:    [19-02-2024 11:44:57] Starting component SegmentAPI
+[32mINFO[0m:     [19-02-2024 11:44:57] Started server process [[36m15540[0m]
+[32mINFO[0m:     [19-02-2024 11:44:57] Waiting for application startup.
+[32mINFO[0m:     [19-02-2024 11:44:57] Application startup complete.
+[32mINFO[0m:     [19-02-2024 11:44:57] Uvicorn running on [1mhttp://localhost:8000[0m (Press CTRL+C to quit)
+[32mINFO[0m:     [19-02-2024 11:44:57] ::1:63273 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [19-02-2024 11:44:57] ::1:63273 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[31mERROR[0m:    [19-02-2024 11:45:01] Collection my_collection already exists
+Traceback (most recent call last):
+  File "C:\Users\imars\AppData\Local\Programs\Python\Python310\lib\site-packages\anyio\streams\memory.py", line 97, in receive
+    return self.receive_nowait()
+  File "C:\Users\imars\AppData\Local\Programs\Python\Python310\lib\site-packages\anyio\streams\memory.py", line 92, in receive_nowait
+    raise WouldBlock
+anyio.WouldBlock
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\imars\AppData\Local\Programs\Python\Python310\lib\site-packages\starlette\middleware\base.py", line 159, in call_next
+    message = await recv_stream.receive()
+  File "C:\Users\imars\AppData\Local\Programs\Python\Python310\lib\site-packages\anyio\streams\memory.py", line 112, in receive
+    raise EndOfStream
+anyio.EndOfStream
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\imars\AppData\Local\Programs\Python\Python310\lib\site-packages\chromadb\server\fastapi\__init__.py", line 80, in catch_exceptions_middleware
+    return await call_next(request)
+  File "C:\Users\imars\AppData\Local\Programs\Python\Python310\lib\site-packages\starlette\middleware\base.py", line 165, in call_next
+    raise app_exc
+  File "C:\Users\imars\AppData\Local\Programs\Python\Python310\lib\site-packages\starlette\middleware\base.py", line 151, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "C:\Users\imars\AppData\Local\Programs\Python\Python310\lib\site-packages\starlette\middleware\base.py", line 189, in __call__
+    with collapse_excgroups():
+  File "C:\Users\imars\AppData\Local\Programs\Python\Python310\lib\contextlib.py", line 153, in __exit__
+    self.gen.throw(typ, value, traceback)
+  File "C:\Users\imars\AppData\Local\Programs\Python\Python310\lib\site-packages\starlette\_utils.py", line 93, in collapse_excgroups
+    raise exc
+  File "C:\Users\imars\AppData\Local\Programs\Python\Python310\lib\site-packages\starlette\middleware\base.py", line 191, in __call__
+    response = await self.dispatch_func(request, call_next)
+  File "C:\Users\imars\AppData\Local\Programs\Python\Python310\lib\site-packages\chromadb\server\fastapi\__init__.py", line 94, in check_http_version_middleware
+    return await call_next(request)
+  File "C:\Users\imars\AppData\Local\Programs\Python\Python310\lib\site-packages\starlette\middleware\base.py", line 165, in call_next
+    raise app_exc
+  File "C:\Users\imars\AppData\Local\Programs\Python\Python310\lib\site-packages\starlette\middleware\base.py", line 151, in coro
+    await self.app(scope, receive_or_disconnect, send_no_error)
+  File "C:\Users\imars\AppData\Local\Programs\Python\Python310\lib\site-packages\starlette\middleware\exceptions.py", line 62, in __call__
+    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
+  File "C:\Users\imars\AppData\Local\Programs\Python\Python310\lib\site-packages\starlette\_exception_handler.py", line 64, in wrapped_app
+    raise exc
+  File "C:\Users\imars\AppData\Local\Programs\Python\Python310\lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\imars\AppData\Local\Programs\Python\Python310\lib\site-packages\starlette\routing.py", line 758, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "C:\Users\imars\AppData\Local\Programs\Python\Python310\lib\site-packages\starlette\routing.py", line 778, in app
+    await route.handle(scope, receive, send)
+  File "C:\Users\imars\AppData\Local\Programs\Python\Python310\lib\site-packages\starlette\routing.py", line 299, in handle
+    await self.app(scope, receive, send)
+  File "C:\Users\imars\AppData\Local\Programs\Python\Python310\lib\site-packages\starlette\routing.py", line 79, in app
+    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
+  File "C:\Users\imars\AppData\Local\Programs\Python\Python310\lib\site-packages\starlette\_exception_handler.py", line 64, in wrapped_app
+    raise exc
+  File "C:\Users\imars\AppData\Local\Programs\Python\Python310\lib\site-packages\starlette\_exception_handler.py", line 53, in wrapped_app
+    await app(scope, receive, sender)
+  File "C:\Users\imars\AppData\Local\Programs\Python\Python310\lib\site-packages\starlette\routing.py", line 74, in app
+    response = await func(request)
+  File "C:\Users\imars\AppData\Local\Programs\Python\Python310\lib\site-packages\fastapi\routing.py", line 299, in app
+    raise e
+  File "C:\Users\imars\AppData\Local\Programs\Python\Python310\lib\site-packages\fastapi\routing.py", line 294, in app
+    raw_response = await run_endpoint_function(
+  File "C:\Users\imars\AppData\Local\Programs\Python\Python310\lib\site-packages\fastapi\routing.py", line 193, in run_endpoint_function
+    return await run_in_threadpool(dependant.call, **values)
+  File "C:\Users\imars\AppData\Local\Programs\Python\Python310\lib\site-packages\starlette\concurrency.py", line 42, in run_in_threadpool
+    return await anyio.to_thread.run_sync(func, *args)
+  File "C:\Users\imars\AppData\Local\Programs\Python\Python310\lib\site-packages\anyio\to_thread.py", line 33, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+  File "C:\Users\imars\AppData\Local\Programs\Python\Python310\lib\site-packages\anyio\_backends\_asyncio.py", line 2106, in run_sync_in_worker_thread
+    return await future
+  File "C:\Users\imars\AppData\Local\Programs\Python\Python310\lib\site-packages\anyio\_backends\_asyncio.py", line 833, in run
+    result = context.run(func, *args)
+  File "C:\Users\imars\AppData\Local\Programs\Python\Python310\lib\site-packages\chromadb\telemetry\opentelemetry\__init__.py", line 127, in wrapper
+    return f(*args, **kwargs)
+  File "C:\Users\imars\AppData\Local\Programs\Python\Python310\lib\site-packages\chromadb\auth\fastapi.py", line 234, in wrapped
+    return f(*args, **kwargs)
+  File "C:\Users\imars\AppData\Local\Programs\Python\Python310\lib\site-packages\chromadb\server\fastapi\__init__.py", line 408, in create_collection
+    return self._api.create_collection(
+  File "C:\Users\imars\AppData\Local\Programs\Python\Python310\lib\site-packages\chromadb\telemetry\opentelemetry\__init__.py", line 127, in wrapper
+    return f(*args, **kwargs)
+  File "C:\Users\imars\AppData\Local\Programs\Python\Python310\lib\site-packages\chromadb\api\segment.py", line 166, in create_collection
+    coll, created = self._sysdb.create_collection(
+  File "C:\Users\imars\AppData\Local\Programs\Python\Python310\lib\site-packages\chromadb\telemetry\opentelemetry\__init__.py", line 127, in wrapper
+    return f(*args, **kwargs)
+  File "C:\Users\imars\AppData\Local\Programs\Python\Python310\lib\site-packages\chromadb\db\mixins\sysdb.py", line 225, in create_collection
+    raise UniqueConstraintError(f"Collection {name} already exists")
+chromadb.db.base.UniqueConstraintError: Collection my_collection already exists
+[32mINFO[0m:     [19-02-2024 11:45:01] 127.0.0.1:63282 - "POST /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 500
+[32mINFO[0m:     [19-02-2024 11:45:11] 127.0.0.1:63283 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [19-02-2024 11:45:11] 127.0.0.1:63283 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [19-02-2024 11:45:51] 127.0.0.1:63298 - "GET /api/v1/collections?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [19-02-2024 11:46:10] 127.0.0.1:63298 - "GET /api/v1/collections/my_collection?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[36mDEBUG[0m:    [19-02-2024 11:46:11] Starting component PersistentLocalHnswSegment
+[32mINFO[0m:     [19-02-2024 11:46:11] 127.0.0.1:63298 - "POST /api/v1/collections/ea7f7d6e-4459-43ca-b62c-54eb25dddd73/get HTTP/1.1" 200
+[32mINFO[0m:     [19-02-2024 11:46:11] Backing off send_request(...) for 0.5s (requests.exceptions.ConnectionError: ('Connection aborted.', ConnectionResetError(10054, 'Удаленный хост принудительно разорвал существующее подключение', None, 10054, None)))
+[32mINFO[0m:     [19-02-2024 11:46:12] Backing off send_request(...) for 0.1s (requests.exceptions.ConnectionError: ('Connection aborted.', ConnectionResetError(10054, 'Удаленный хост принудительно разорвал существующее подключение', None, 10054, None)))
+[32mINFO[0m:     [19-02-2024 11:46:13] Backing off send_request(...) for 3.5s (requests.exceptions.ConnectionError: ('Connection aborted.', ConnectionResetError(10054, 'Удаленный хост принудительно разорвал существующее подключение', None, 10054, None)))
+[31mERROR[0m:    [19-02-2024 11:46:16] Giving up send_request(...) after 4 tries (requests.exceptions.ConnectionError: ('Connection aborted.', ConnectionResetError(10054, 'Удаленный хост принудительно разорвал существующее подключение', None, 10054, None)))
+[32mINFO[0m:     [19-02-2024 11:47:40] 127.0.0.1:63338 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [19-02-2024 11:47:40] 127.0.0.1:63338 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [19-02-2024 11:47:40] 127.0.0.1:63339 - "GET /api/v1/collections/my_collection?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [19-02-2024 11:47:43] 127.0.0.1:63339 - "POST /api/v1/collections/ea7f7d6e-4459-43ca-b62c-54eb25dddd73/query HTTP/1.1" 200
+[32mINFO[0m:     [19-02-2024 11:47:44] Backing off send_request(...) for 0.6s (requests.exceptions.ConnectionError: ('Connection aborted.', ConnectionResetError(10054, 'Удаленный хост принудительно разорвал существующее подключение', None, 10054, None)))
+[32mINFO[0m:     [19-02-2024 11:47:45] Backing off send_request(...) for 0.0s (requests.exceptions.ConnectionError: ('Connection aborted.', ConnectionResetError(10054, 'Удаленный хост принудительно разорвал существующее подключение', None, 10054, None)))
+[32mINFO[0m:     [19-02-2024 11:47:45] Backing off send_request(...) for 0.2s (requests.exceptions.ConnectionError: ('Connection aborted.', ConnectionResetError(10054, 'Удаленный хост принудительно разорвал существующее подключение', None, 10054, None)))
+[31mERROR[0m:    [19-02-2024 11:47:45] Giving up send_request(...) after 4 tries (requests.exceptions.ConnectionError: ('Connection aborted.', ConnectionResetError(10054, 'Удаленный хост принудительно разорвал существующее подключение', None, 10054, None)))
+[32mINFO[0m:     [19-02-2024 11:48:34] 127.0.0.1:63367 - "GET /api/v1/tenants/default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [19-02-2024 11:48:34] 127.0.0.1:63367 - "GET /api/v1/databases/default_database?tenant=default_tenant HTTP/1.1" 200
+[32mINFO[0m:     [19-02-2024 11:48:34] 127.0.0.1:63368 - "GET /api/v1/collections/my_collection?tenant=default_tenant&database=default_database HTTP/1.1" 200
+[32mINFO[0m:     [19-02-2024 11:48:37] 127.0.0.1:63368 - "POST /api/v1/collections/ea7f7d6e-4459-43ca-b62c-54eb25dddd73/query HTTP/1.1" 200
+[32mINFO[0m:     [19-02-2024 11:49:07] Shutting down
+[32mINFO[0m:     [19-02-2024 11:49:07] Waiting for application shutdown.
+[32mINFO[0m:     [19-02-2024 11:49:07] Application shutdown complete.
+[32mINFO[0m:     [19-02-2024 11:49:07] Finished server process [[36m15540[0m]
