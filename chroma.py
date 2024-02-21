@@ -4,8 +4,8 @@ from chromadb.utils import embedding_functions
 from tqdm import tqdm
 import chromadb
 
-# client = chromadb.PersistentClient(path="/database/data")
-client = chromadb.HttpClient(host='localhost', port=8000)
+client = chromadb.PersistentClient(path="/database/data")
+# client = chromadb.HttpClient(host='localhost', port=8000)
 print('База данных подключена') 
 # invest_qa_emb = client.create_collection(name=db_name, metadata={'hnsw:space': 'cosine'})
 collection = client.create_collection(name="my_collection", embedding_function=embedding_functions.SentenceTransformerEmbeddingFunction(model_name="intfloat/multilingual-e5-small"), metadata={'hnsw:space': 'cosine'})
