@@ -1,0 +1,87 @@
+{
+  "best_metric": 0.026059327647089958,
+  "best_model_checkpoint": "output\\checkpoint-500",
+  "epoch": 3.90625,
+  "global_step": 500,
+  "is_hyper_param_search": false,
+  "is_local_process_zero": true,
+  "is_world_process_zero": true,
+  "log_history": [
+    {
+      "epoch": 0.78,
+      "eval_accuracy": 0.9161793372319688,
+      "eval_f1": 0.7934302255559622,
+      "eval_loss": 0.30750414729118347,
+      "eval_precision": 0.9430269097368612,
+      "eval_recall": 0.7593268295181032,
+      "eval_report": "              precision    recall  f1-score   support\n\n           0       0.91      0.97      0.94       283\n           1       1.00      0.33      0.49        46\n           2       0.92      0.98      0.95       184\n\n    accuracy                           0.92       513\n   macro avg       0.94      0.76      0.79       513\nweighted avg       0.92      0.92      0.90       513\n",
+      "eval_runtime": 3.5089,
+      "eval_samples_per_second": 146.199,
+      "eval_steps_per_second": 1.425,
+      "step": 100
+    },
+    {
+      "epoch": 1.56,
+      "eval_accuracy": 0.9824561403508771,
+      "eval_f1": 0.9680202152982812,
+      "eval_loss": 0.056641366332769394,
+      "eval_precision": 0.9801942801942802,
+      "eval_recall": 0.9571554770318021,
+      "eval_report": "              precision    recall  f1-score   support\n\n           0       0.99      1.00      0.99       283\n           1       0.98      0.89      0.93        46\n           2       0.98      0.98      0.98       184\n\n    accuracy                           0.98       513\n   macro avg       0.98      0.96      0.97       513\nweighted avg       0.98      0.98      0.98       513\n",
+      "eval_runtime": 4.4992,
+      "eval_samples_per_second": 114.021,
+      "eval_steps_per_second": 1.111,
+      "step": 200
+    },
+    {
+      "epoch": 2.34,
+      "eval_accuracy": 0.9902534113060428,
+      "eval_f1": 0.9864486286908591,
+      "eval_loss": 0.0336105152964592,
+      "eval_precision": 0.9867632180984857,
+      "eval_recall": 0.9861409842781789,
+      "eval_report": "              precision    recall  f1-score   support\n\n           0       0.99      1.00      0.99       283\n           1       0.98      0.98      0.98        46\n           2       0.99      0.98      0.99       184\n\n    accuracy                           0.99       513\n   macro avg       0.99      0.99      0.99       513\nweighted avg       0.99      0.99      0.99       513\n",
+      "eval_runtime": 3.5019,
+      "eval_samples_per_second": 146.491,
+      "eval_steps_per_second": 1.428,
+      "step": 300
+    },
+    {
+      "epoch": 3.12,
+      "eval_accuracy": 0.9902534113060428,
+      "eval_f1": 0.9838542119177353,
+      "eval_loss": 0.02722165733575821,
+      "eval_precision": 0.9810103813341557,
+      "eval_recall": 0.9867747221795463,
+      "eval_report": "              precision    recall  f1-score   support\n\n           0       1.00      0.99      0.99       283\n           1       0.96      0.98      0.97        46\n           2       0.99      0.99      0.99       184\n\n    accuracy                           0.99       513\n   macro avg       0.98      0.99      0.98       513\nweighted avg       0.99      0.99      0.99       513\n",
+      "eval_runtime": 3.3949,
+      "eval_samples_per_second": 151.108,
+      "eval_steps_per_second": 1.473,
+      "step": 400
+    },
+    {
+      "epoch": 3.91,
+      "learning_rate": 1.9561928549563968e-05,
+      "loss": 0.2026,
+      "step": 500
+    },
+    {
+      "epoch": 3.91,
+      "eval_accuracy": 0.9922027290448343,
+      "eval_f1": 0.9879525784810775,
+      "eval_loss": 0.026059327647089958,
+      "eval_precision": 0.9879525784810775,
+      "eval_recall": 0.9879525784810775,
+      "eval_report": "              precision    recall  f1-score   support\n\n           0       1.00      1.00      1.00       283\n           1       0.98      0.98      0.98        46\n           2       0.99      0.99      0.99       184\n\n    accuracy                           0.99       513\n   macro avg       0.99      0.99      0.99       513\nweighted avg       0.99      0.99      0.99       513\n",
+      "eval_runtime": 3.5596,
+      "eval_samples_per_second": 144.117,
+      "eval_steps_per_second": 1.405,
+      "step": 500
+    }
+  ],
+  "max_steps": 640,
+  "num_train_epochs": 5,
+  "total_flos": 10025619696000.0,
+  "trial_name": null,
+  "trial_params": null
+}
